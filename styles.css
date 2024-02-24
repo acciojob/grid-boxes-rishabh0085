@@ -1,1 +1,44 @@
 /*  your css code here. If applicable */
+
+#grid{
+	display: grid;
+	grid-template-columns: 242.5px 242.5px 242.5px 242.5px;
+	grid-auto-rows: 124px 124px 124px 124px 124px;
+	gap: 10px 10px;
+}
+.grid-item{
+	font-weight: bold;
+	background-color: green;
+	color: white;
+	padding: 3px;
+}
+#g1st{
+	grid-column: span 4/auto;
+}
+#g2nd{
+	grid-row: span 4/auto;
+}
+#g3rd{
+	grid-column: span 1/auto;
+}
+#g4th{
+	grid-column: span 2/auto;
+}
+#g5th{
+	grid-column: span 2/auto;
+}
+#g6th{
+	grid-column: span 1/auto;
+}
+#g7th{
+	grid-column: span 1/auto;
+}
+#g8th{
+	grid-column: span 1/auto;
+}
+#g9th{
+	grid-column: span 1/auto;
+}
+#g10th{
+	grid-column: span 3/auto;
+}
